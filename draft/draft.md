@@ -2,7 +2,6 @@
 demo
 
 ```mermaid
-graph TD
 start[Start] --> Mix[Mix white sugar, brown sugar, and butter in blender]
 Mix --> Pour[Pour chocolate cookies, flour, soda powder, etc.]
 Pour --> MixAll[Mix all ingredients well]
