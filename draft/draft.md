@@ -4,18 +4,21 @@ demo
 ```mermaid
 
 graph LR
-A((Start)) --> B[Stir white sugar, brown sugar, and butter into the blender]
+A[Start] --> B[Stir white sugar, brown sugar, and butter in blender]
 B --> C[Pour chocolate cookies, flour, soda powder, etc.]
-C --> D[Mix all the chocolate chip cookie ingredients well]
-D --> E[Pour cookie into the shaping machine]
-E --> F[Make chocolate cookie raw materials into round chocolate cookies according to the pre-set model]
-F --> G[Cool chocolate biscuits]
-G --> H[Pack chocolate biscuits into boxes according to fixed specifications and weights]
-H --> I[Put boxes of unbaked brownies into the warehouse and wait for further baking]
-I --> J[Put each round cake on the baking pallets and gradually put them into the oven]
-J --> K[Bake at 300 degrees Fahrenheit for 7 minutes]
-K --> L[Cool for easy packaging]
-L --> M[Pack cooled chocolate chip cookies]
-M --> N((End))
+C --> D[Mix all ingredients well]
+D --> E[Pour into shaping machine]
+E --> F[Shape into round cookies]
+F --> G[Cool the cookies]
+G --> H[Pack into boxes according to specifications and weights]
+H --> I[Store boxes in the warehouse]
+I --> J[Baker takes unbaked cookies]
+J --> K[Place cookies on baking pallets]
+K --> L[Put into the oven at 300°F for 7 minutes]
+L --> M[Cookies become edible chocolate chip cookies]
+M --> N[Cool the baked cookies]
+N --> O[Pack the cooled cookies]
+O --> P[End]
+
 
 ```
