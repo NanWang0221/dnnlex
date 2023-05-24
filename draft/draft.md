@@ -2,15 +2,24 @@
 demo
 
 ```mermaid
-start[Start] --> Mix[Mix white sugar, brown sugar, and butter in blender]
-Mix --> Pour[Pour chocolate cookies, flour, soda powder, etc.]
-Pour --> MixAll[Mix all ingredients well]
-MixAll --> Shape[Pour mixture into shaping machine]
-Shape --> Cool[Cool cookies]
-Cool --> Pack[Pack cookies into boxes according to fixed specifications and weights]
-Pack --> Warehouse[Put boxes in warehouse for further baking]
-Warehouse --> Baker[Baker places each round cake on baking pallets and puts them into oven at 300 degrees Fahrenheit for 7 minutes]
-Baker --> Cool2[Cookies become flat round cakes and continue to cool for easy packaging]
-Cool2 --> Pack2[Packers pack cooled cookies into boxes]
-Pack2 --> end[End]
+graph TD
+
+start((Start)) --> A[Stir sugar and butter]
+A --> B[Pour chocolate chips, flour, soda powder, etc.]
+B --> C[Pour mixture into shaping machine]
+C --> D[Cooling stage]
+D --> E[Packaging]
+E --> F[Store in warehouse]
+F --> G[Take unbaked brownies]
+G --> H[Place cakes on baking pallets]
+H --> I[Bake at 300°F for 7 minutes]
+I --> J[Cool cookies]
+J --> K[Pack cookies]
+K --> end((End))
+
+style start, end fill:#d7e8d8,stroke:#6f966f,stroke-width:2px
+style A-F stroke:#6f966f,stroke-width:2px
+style G-K fill:#d7e8d8,stroke:#6f966f,stroke-width:2px
+
+
 ```
