@@ -3,7 +3,7 @@ demo
 
 ```mermaid
 
-graph LR
+graph DR
 A((Start)) --> B[Stir white sugar, brown sugar, and butter into the blender]
 B --> C[Pour chocolate cookies, flour, soda powder, etc.]
 C --> D[Mix all the chocolate chip cookie ingredients well]
